@@ -1365,30 +1365,6 @@ index 9efe8be..d163372 100644
  
  uses crt;
  
-diff --git a/makedata/evolve.txt b/other/evolve.txt
-similarity index 100%
-rename from makedata/evolve.txt
-rename to other/evolve.txt
-diff --git a/itemdata.txt b/other/itemdata.txt
-similarity index 100%
-rename from itemdata.txt
-rename to other/itemdata.txt
-diff --git a/makedata/items.txt b/other/items.txt
-similarity index 100%
-rename from makedata/items.txt
-rename to other/items.txt
-diff --git a/makedata/stuff.txt b/other/stuff.txt
-similarity index 100%
-rename from makedata/stuff.txt
-rename to other/stuff.txt
-diff --git a/sysdata.txt b/other/sysdata.txt
-similarity index 100%
-rename from sysdata.txt
-rename to other/sysdata.txt
-diff --git a/makedata/xp.txt b/other/xp.txt
-similarity index 100%
-rename from makedata/xp.txt
-rename to other/xp.txt
 diff --git a/makedata/planicon.pal b/png/main.pal
 similarity index 69%
 rename from makedata/planicon.pal
