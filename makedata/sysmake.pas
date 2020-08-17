@@ -1,4 +1,20 @@
 program displaysystems;
+(********************************************************************
+    This file is part of Ironseed.
+
+    Ironseed is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Ironseed is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
+********************************************************************)
 
 
 uses crt;
@@ -21,11 +37,11 @@ var
 
 procedure display;
 begin
- assign(f,'data\sysname.dta');
+ assign(f,'data/sysname.dta');
  reset(f);
- assign(f2,'data\sysset.dta');
+ assign(f2,'data/sysset.dta');
  reset(f2);
- assign(ft,'sysdata.txt');
+ assign(ft,'other/sysdata.txt');
  rewrite(ft);
  for a:=1 to 250 do
   begin
@@ -58,11 +74,9 @@ end;
 
 
 begin
- display;
- exit;
- assign(ft,'makedata\names.txt');
+ assign(ft,'makedata/names.txt');
  reset(ft);
- assign(f,'data\sysname.dta');
+ assign(f,'data/sysname.dta');
  rewrite(f);
  textmode(co80);
  for a:=1 to 250 do
@@ -76,4 +90,7 @@ begin
   end;
  close(ft);
  close(f);
+
+ display;
+ exit;
 end.
