@@ -294,38 +294,6 @@ index cdaa15f..a593cf6 100644
  
  {***************************
     Ship Display Control unit for IronSeed
-diff --git a/emstool.pas b/emstool.pas
-index 2612fb8..103bc73 100644
---- a/emstool.pas
-+++ b/emstool.pas
-@@ -1,4 +1,20 @@
- unit emstool;
-+(********************************************************************
-+    This file is part of Ironseed.
-+
-+    Ironseed is free software: you can redistribute it and/or modify
-+    it under the terms of the GNU General Public License as published by
-+    the Free Software Foundation, either version 3 of the License, or
-+    (at your option) any later version.
-+
-+    Ironseed is distributed in the hope that it will be useful,
-+    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+    GNU General Public License for more details.
-+
-+    You should have received a copy of the GNU General Public License
-+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+********************************************************************)
- 
- interface
- 
-@@ -154,4 +170,4 @@ end;
- 
- begin
-  ems.initialize;
--end.
-\ No newline at end of file
-+end.
 diff --git a/ending.pas b/ending.pas
 index 0f60004..e12599b 100644
 --- a/ending.pas
@@ -477,32 +445,6 @@ index babe559..95e635e 100644
  
  {***************************
     Initialization unit for IronSeed
-diff --git a/install.pas b/install.pas
-index 8d97f66..80eb6e7 100644
---- a/install.pas
-+++ b/install.pas
-@@ -1,4 +1,21 @@
- program installit;
-+(********************************************************************
-+    This file is part of Ironseed.
-+
-+    Ironseed is free software: you can redistribute it and/or modify
-+    it under the terms of the GNU General Public License as published by
-+    the Free Software Foundation, either version 3 of the License, or
-+    (at your option) any later version.
-+
-+    Ironseed is distributed in the hope that it will be useful,
-+    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+    GNU General Public License for more details.
-+
-+    You should have received a copy of the GNU General Public License
-+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+********************************************************************)
-+
- {$M 4000,0,0}
- {
-   Installation Unit for IronSeed
 diff --git a/intro.pas b/intro.pas
 index 1f18067..4662c54 100644
 --- a/intro.pas
@@ -656,64 +598,6 @@ index 237e7c2..e545b07 100644
  
  {***************************
     Save/Load Game and Utility Unit for IronSeed
-diff --git a/shipmake.pas b/shipmake.pas
-index 84ceaea..bde1db8 100644
---- a/shipmake.pas
-+++ b/shipmake.pas
-@@ -1,4 +1,20 @@
- program makeship;
-+(********************************************************************
-+    This file is part of Ironseed.
-+
-+    Ironseed is free software: you can redistribute it and/or modify
-+    it under the terms of the GNU General Public License as published by
-+    the Free Software Foundation, either version 3 of the License, or
-+    (at your option) any later version.
-+
-+    Ironseed is distributed in the hope that it will be useful,
-+    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+    GNU General Public License for more details.
-+
-+    You should have received a copy of the GNU General Public License
-+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+********************************************************************)
- 
- type
-  alienshiptype=
-diff --git a/config.pas b/sndcfg.pas
-similarity index 92%
-rename from code/config.pas
-rename to code/sndcfg.pas
-index 31374a7..43b3f28 100644
---- a/config.pas
-+++ b/sndcfg.pas
-@@ -1,7 +1,24 @@
- program ConfigureFrinj;
-+(********************************************************************
-+    This file is part of Ironseed.
-+
-+    Ironseed is free software: you can redistribute it and/or modify
-+    it under the terms of the GNU General Public License as published by
-+    the Free Software Foundation, either version 3 of the License, or
-+    (at your option) any later version.
-+
-+    Ironseed is distributed in the hope that it will be useful,
-+    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+    GNU General Public License for more details.
-+
-+    You should have received a copy of the GNU General Public License
-+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+********************************************************************)
-+
- {$M 2000,0,0}
- 
--uses crt, win, strings, dos;
-+uses crt, strings, dos;
- 
- type
-    configfile = 
 diff --git a/starter.pas b/starter.pas
 index febae7f..cfcfc38 100644
 --- a/starter.pas
@@ -871,9 +755,6 @@ index a1b7840..9d274fb 100644
  
  {***************************
     CatchAll unit for IronSeed
-diff --git a/crealist.txt b/crealist.txt
-deleted file mode 100644
-index e69de29..0000000
 diff --git a/Data_Generators/makedata/aliemake.pas b/Data_Generators/makedata/aliemake.pas
 index 15b90ed..0047fa8 100644
 --- a/Data_Generators/makedata/aliemake.pas
