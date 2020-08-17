@@ -1582,23 +1582,6 @@ index a1b7840..9d274fb 100644
 diff --git a/crealist.txt b/crealist.txt
 deleted file mode 100644
 index e69de29..0000000
-diff --git a/dosbox.conf b/dosbox.conf
-index a3645ee..b5d9c29 100644
---- a/dosbox.conf
-+++ b/dosbox.conf
-@@ -237,8 +237,11 @@ ipx=false
- mount s /home/xen/saki/projects/Ironseed
- #mount f /home/xen/projects/Ironseed
- mount g /home/xen/saki/projects/Ironseed
-+mount f /home/xen/saki/projects/Ironseed
- 
--set path=z:\;g:\bp\bin;f:\bp\bin
-+mount a /home/xen/saki/projects/Ironseed/masminst
-+
-+set path=z:\;g:\bp\bin;f:\bp\bin;f:\tc\bin
- 
- s:
- cd ironseed
 diff --git a/makedata/aliemake.pas b/makedata/aliemake.pas
 index 15b90ed..0047fa8 100644
 --- a/makedata/aliemake.pas
