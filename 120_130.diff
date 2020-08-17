@@ -1274,10 +1274,6 @@ index cba494b..da4854e 100644
  
  {***************************
     Mouse Utilities unit for IronSeed
-diff --git a/code/gmouse.tpp b/code/gmouse.tpp
-deleted file mode 100644
-index 6f4e134..0000000
-Binary files a/code/gmouse.tpp and /dev/null differ
 diff --git a/code/graphics.asm b/code/graphics.asm
 index 2e1d057..ce3d709 100644
 --- a/code/graphics.asm
@@ -1877,58 +1873,6 @@ index a1b7840..9d274fb 100644
 diff --git a/crealist.txt b/crealist.txt
 deleted file mode 100644
 index e69de29..0000000
-diff --git a/data/cargo.dta b/data/cargo.dta
-deleted file mode 100644
-index 5a3d94a..0000000
-Binary files a/data/cargo.dta and /dev/null differ
-diff --git a/data/contact0.dta b/data/contact0.dta
-deleted file mode 100644
-index fffc1ca..0000000
-Binary files a/data/contact0.dta and /dev/null differ
-diff --git a/data/creation.dta b/data/creation.dta
-deleted file mode 100644
-index 1f2a648..0000000
-Binary files a/data/creation.dta and /dev/null differ
-diff --git a/data/crew.dta b/data/crew.dta
-deleted file mode 100644
-index f96a08a..0000000
-Binary files a/data/crew.dta and /dev/null differ
-diff --git a/data/event.dta b/data/event.dta
-deleted file mode 100644
-index 056f3cb..0000000
-Binary files a/data/event.dta and /dev/null differ
-diff --git a/data/iteminfo.dta b/data/iteminfo.dta
-deleted file mode 100644
-index f0d31a5..0000000
-Binary files a/data/iteminfo.dta and /dev/null differ
-diff --git a/data/scan.dta b/data/scan.dta
-deleted file mode 100644
-index 982a3c1..0000000
-Binary files a/data/scan.dta and /dev/null differ
-diff --git a/dmp/_669load.tpp b/dmp/_669load.tpp
-deleted file mode 100644
-index 15603e4..0000000
-Binary files a/dmp/_669load.tpp and /dev/null differ
-diff --git a/dmp/amfload.tpp b/dmp/amfload.tpp
-deleted file mode 100644
-index 25d7b2b..0000000
-Binary files a/dmp/amfload.tpp and /dev/null differ
-diff --git a/dmp/amp.tpp b/dmp/amp.tpp
-deleted file mode 100644
-index f4a915b..0000000
-Binary files a/dmp/amp.tpp and /dev/null differ
-diff --git a/dmp/cdi.tpp b/dmp/cdi.tpp
-deleted file mode 100644
-index cf0a478..0000000
-Binary files a/dmp/cdi.tpp and /dev/null differ
-diff --git a/dmp/chorus b/dmp/chorus
-deleted file mode 100644
-index 8aa5852..0000000
-Binary files a/dmp/chorus and /dev/null differ
-diff --git a/dmp/csupport.tpp b/dmp/csupport.tpp
-deleted file mode 100644
-index c4a6f8c..0000000
-Binary files a/dmp/csupport.tpp and /dev/null differ
 diff --git a/dmp/det_aria.pas b/dmp/det_aria.pas
 index cb5bf4d..0c256b4 100644
 --- a/dmp/det_aria.pas
@@ -1967,10 +1911,6 @@ index cb5bf4d..0c256b4 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/det_aria.tpp b/dmp/det_aria.tpp
-deleted file mode 100644
-index 89aa42d..0000000
-Binary files a/dmp/det_aria.tpp and /dev/null differ
 diff --git a/dmp/det_pas.pas b/dmp/det_pas.pas
 index 563c59c..1388f04 100644
 --- a/dmp/det_pas.pas
@@ -2009,10 +1949,6 @@ index 563c59c..1388f04 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/det_pas.tpp b/dmp/det_pas.tpp
-deleted file mode 100644
-index c5338cc..0000000
-Binary files a/dmp/det_pas.tpp and /dev/null differ
 diff --git a/dmp/det_sb.pas b/dmp/det_sb.pas
 index 40f790a..6b7a4fd 100644
 --- a/dmp/det_sb.pas
@@ -2055,10 +1991,6 @@ index 40f790a..6b7a4fd 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/det_sb.tpp b/dmp/det_sb.tpp
-deleted file mode 100644
-index 7ea3c36..0000000
-Binary files a/dmp/det_sb.tpp and /dev/null differ
 diff --git a/dmp/detgus.pas b/dmp/detgus.pas
 index 53aca93..42ce4d6 100644
 --- a/dmp/detgus.pas
@@ -2158,18 +2090,6 @@ index 53aca93..42ce4d6 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/detgus.tpp b/dmp/detgus.tpp
-deleted file mode 100644
-index 113c3b4..0000000
-Binary files a/dmp/detgus.tpp and /dev/null differ
-diff --git a/dmp/dpmiapi.tpp b/dmp/dpmiapi.tpp
-deleted file mode 100644
-index 9c0f788..0000000
-Binary files a/dmp/dpmiapi.tpp and /dev/null differ
-diff --git a/dmp/dsmi.tpp b/dmp/dsmi.tpp
-deleted file mode 100644
-index f3a7ce1..0000000
-Binary files a/dmp/dsmi.tpp and /dev/null differ
 diff --git a/dmp/dsmistub.pas b/dmp/dsmistub.pas
 new file mode 100644
 index 0000000..74e0ead
@@ -2794,10 +2714,6 @@ index 19fca0c..e471791 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/example.amf b/dmp/example.amf
-deleted file mode 100644
-index 151acf7..0000000
-Binary files a/dmp/example.amf and /dev/null differ
 diff --git a/dmp/getcpu.pas b/dmp/getcpu.pas
 index 8c43a24..2e1ed43 100644
 --- a/dmp/getcpu.pas
@@ -2825,14 +2741,6 @@ index 8c43a24..2e1ed43 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/getcpu.tpp b/dmp/getcpu.tpp
-deleted file mode 100644
-index 980e412..0000000
-Binary files a/dmp/getcpu.tpp and /dev/null differ
-diff --git a/dmp/gus.tpp b/dmp/gus.tpp
-deleted file mode 100644
-index c3d770c..0000000
-Binary files a/dmp/gus.tpp and /dev/null differ
 diff --git a/dmp/loaders.pas b/dmp/loaders.pas
 index a458eb0..b9cddb8 100644
 --- a/dmp/loaders.pas
@@ -2916,14 +2824,6 @@ index a458eb0..b9cddb8 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/loaders.tpp b/dmp/loaders.tpp
-deleted file mode 100644
-index bd66236..0000000
-Binary files a/dmp/loaders.tpp and /dev/null differ
-diff --git a/dmp/loadm.tpp b/dmp/loadm.tpp
-deleted file mode 100644
-index 17112d1..0000000
-Binary files a/dmp/loadm.tpp and /dev/null differ
 diff --git a/dmp/mcp.pas b/dmp/mcp.pas
 index f911d21..432d90c 100644
 --- a/dmp/mcp.pas
@@ -3177,18 +3077,6 @@ index f911d21..432d90c 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/mcp.tpp b/dmp/mcp.tpp
-deleted file mode 100644
-index ed4054d..0000000
-Binary files a/dmp/mcp.tpp and /dev/null differ
-diff --git a/dmp/mcpreala.tpp b/dmp/mcpreala.tpp
-deleted file mode 100644
-index 388b335..0000000
-Binary files a/dmp/mcpreala.tpp and /dev/null differ
-diff --git a/dmp/mixer.tpp b/dmp/mixer.tpp
-deleted file mode 100644
-index 56e277c..0000000
-Binary files a/dmp/mixer.tpp and /dev/null differ
 diff --git a/dmp/modload.pas b/dmp/modload.pas
 index 441b7ea..a063777 100644
 --- a/dmp/modload.pas
@@ -3785,46 +3673,6 @@ index 441b7ea..a063777 100644
 +interface
 +implementation
 +end.
-diff --git a/dmp/mtmload.tpp b/dmp/mtmload.tpp
-deleted file mode 100644
-index 97e0bff..0000000
-Binary files a/dmp/mtmload.tpp and /dev/null differ
-diff --git a/dmp/s3mload.tpp b/dmp/s3mload.tpp
-deleted file mode 100644
-index bc66bcb..0000000
-Binary files a/dmp/s3mload.tpp and /dev/null differ
-diff --git a/dmp/sdi__ari.tpp b/dmp/sdi__ari.tpp
-deleted file mode 100644
-index b47a509..0000000
-Binary files a/dmp/sdi__ari.tpp and /dev/null differ
-diff --git a/dmp/sdi__pas.tpp b/dmp/sdi__pas.tpp
-deleted file mode 100644
-index dc0224f..0000000
-Binary files a/dmp/sdi__pas.tpp and /dev/null differ
-diff --git a/dmp/sdi__sb.tpp b/dmp/sdi__sb.tpp
-deleted file mode 100644
-index f4f5d3b..0000000
-Binary files a/dmp/sdi__sb.tpp and /dev/null differ
-diff --git a/dmp/sdi__sb1.tpp b/dmp/sdi__sb1.tpp
-deleted file mode 100644
-index 2585146..0000000
-Binary files a/dmp/sdi__sb1.tpp and /dev/null differ
-diff --git a/dmp/stmload.tpp b/dmp/stmload.tpp
-deleted file mode 100644
-index d107741..0000000
-Binary files a/dmp/stmload.tpp and /dev/null differ
-diff --git a/dmp/temp/MODLOAD.TPP b/dmp/temp/MODLOAD.TPP
-deleted file mode 100644
-index 05acf6b..0000000
-Binary files a/dmp/temp/MODLOAD.TPP and /dev/null differ
-diff --git a/dmp/timeserv.tpp b/dmp/timeserv.tpp
-deleted file mode 100644
-index 9b6c172..0000000
-Binary files a/dmp/timeserv.tpp and /dev/null differ
-diff --git a/dmp/vds.tpp b/dmp/vds.tpp
-deleted file mode 100644
-index 50d1b31..0000000
-Binary files a/dmp/vds.tpp and /dev/null differ
 diff --git a/dosbox.conf b/dosbox.conf
 index a3645ee..b5d9c29 100644
 --- a/dosbox.conf
@@ -3867,50 +3715,6 @@ index 15b90ed..0047fa8 100644
  
  type
   alientype=
-diff --git a/makedata/alien.cpr b/makedata/alien.cpr
-deleted file mode 100644
-index 1bf03f3..0000000
-Binary files a/makedata/alien.cpr and /dev/null differ
-diff --git a/makedata/alien1.cpr b/makedata/alien1.cpr
-deleted file mode 100644
-index ec1850e..0000000
-Binary files a/makedata/alien1.cpr and /dev/null differ
-diff --git a/makedata/alien10.cpr b/makedata/alien10.cpr
-deleted file mode 100644
-index b811e21..0000000
-Binary files a/makedata/alien10.cpr and /dev/null differ
-diff --git a/makedata/alien2.cpr b/makedata/alien2.cpr
-deleted file mode 100644
-index 70bbf79..0000000
-Binary files a/makedata/alien2.cpr and /dev/null differ
-diff --git a/makedata/alien3.cpr b/makedata/alien3.cpr
-deleted file mode 100644
-index a079036..0000000
-Binary files a/makedata/alien3.cpr and /dev/null differ
-diff --git a/makedata/alien4.cpr b/makedata/alien4.cpr
-deleted file mode 100644
-index 2214f9c..0000000
-Binary files a/makedata/alien4.cpr and /dev/null differ
-diff --git a/makedata/alien5.cpr b/makedata/alien5.cpr
-deleted file mode 100644
-index 4e15bfe..0000000
-Binary files a/makedata/alien5.cpr and /dev/null differ
-diff --git a/makedata/alien6.cpr b/makedata/alien6.cpr
-deleted file mode 100644
-index c2c0019..0000000
-Binary files a/makedata/alien6.cpr and /dev/null differ
-diff --git a/makedata/alien7.cpr b/makedata/alien7.cpr
-deleted file mode 100644
-index d5fc07d..0000000
-Binary files a/makedata/alien7.cpr and /dev/null differ
-diff --git a/makedata/alien8.cpr b/makedata/alien8.cpr
-deleted file mode 100644
-index 77bc7c0..0000000
-Binary files a/makedata/alien8.cpr and /dev/null differ
-diff --git a/makedata/alien9.cpr b/makedata/alien9.cpr
-deleted file mode 100644
-index 270b92f..0000000
-Binary files a/makedata/alien9.cpr and /dev/null differ
 diff --git a/makedata/artimake.pas b/makedata/artimake.pas
 index fa8b914..fb56452 100644
 --- a/makedata/artimake.pas
@@ -3936,38 +3740,6 @@ index fa8b914..fb56452 100644
  
  type
   artifacttype=string[10];
-diff --git a/makedata/bitmap.cpr b/makedata/bitmap.cpr
-deleted file mode 100644
-index 78ffb6b..0000000
-Binary files a/makedata/bitmap.cpr and /dev/null differ
-diff --git a/makedata/blast01.cpr b/makedata/blast01.cpr
-deleted file mode 100644
-index 61bcc0e..0000000
-Binary files a/makedata/blast01.cpr and /dev/null differ
-diff --git a/makedata/blast02.cpr b/makedata/blast02.cpr
-deleted file mode 100644
-index eb0b74b..0000000
-Binary files a/makedata/blast02.cpr and /dev/null differ
-diff --git a/makedata/blast03.cpr b/makedata/blast03.cpr
-deleted file mode 100644
-index 1095b85..0000000
-Binary files a/makedata/blast03.cpr and /dev/null differ
-diff --git a/makedata/blast04.cpr b/makedata/blast04.cpr
-deleted file mode 100644
-index 356d218..0000000
-Binary files a/makedata/blast04.cpr and /dev/null differ
-diff --git a/makedata/breach1.cpr b/makedata/breach1.cpr
-deleted file mode 100644
-index 820f534..0000000
-Binary files a/makedata/breach1.cpr and /dev/null differ
-diff --git a/makedata/breach2.cpr b/makedata/breach2.cpr
-deleted file mode 100644
-index 2ad28a5..0000000
-Binary files a/makedata/breach2.cpr and /dev/null differ
-diff --git a/makedata/c7.cpr b/makedata/c7.cpr
-deleted file mode 100644
-index 207d872..0000000
-Binary files a/makedata/c7.cpr and /dev/null differ
 diff --git a/makedata/cargmake.pas b/makedata/cargmake.pas
 index 5cb33fe..ec6469b 100644
 --- a/makedata/cargmake.pas
@@ -4005,34 +3777,6 @@ index 5cb33fe..ec6469b 100644
   reset(ft);
   readln(ft);
   for i:=1 to maxcargo do
-diff --git a/makedata/channel7.cpr b/makedata/channel7.cpr
-deleted file mode 100644
-index 6d9604e..0000000
-Binary files a/makedata/channel7.cpr and /dev/null differ
-diff --git a/makedata/channel7.pal b/makedata/channel7.pal
-deleted file mode 100644
-index 2105f24..0000000
-Binary files a/makedata/channel7.pal and /dev/null differ
-diff --git a/makedata/char.cpr b/makedata/char.cpr
-deleted file mode 100644
-index d63b38f..0000000
-Binary files a/makedata/char.cpr and /dev/null differ
-diff --git a/makedata/char.pal b/makedata/char.pal
-deleted file mode 100644
-index 3ded02a..0000000
-Binary files a/makedata/char.pal and /dev/null differ
-diff --git a/makedata/char1.dta b/makedata/char1.dta
-deleted file mode 100644
-index f3d351e..0000000
-Binary files a/makedata/char1.dta and /dev/null differ
-diff --git a/makedata/charani.cpr b/makedata/charani.cpr
-deleted file mode 100644
-index 0632218..0000000
-Binary files a/makedata/charani.cpr and /dev/null differ
-diff --git a/makedata/comscrn.cpr b/makedata/comscrn.cpr
-deleted file mode 100644
-index d07ed56..0000000
-Binary files a/makedata/comscrn.cpr and /dev/null differ
 diff --git a/makedata/creamake.pas b/makedata/creamake.pas
 index ecca8b1..0b9ba50 100644
 --- a/makedata/creamake.pas
@@ -4102,22 +3846,6 @@ index 690b5f6..0ca55b6 100644
   clrscr;
   for a:=1 to 30 do
    begin
-diff --git a/makedata/destiny.cpr b/makedata/destiny.cpr
-deleted file mode 100644
-index 33d5c72..0000000
-Binary files a/makedata/destiny.cpr and /dev/null differ
-diff --git a/makedata/destiny.pal b/makedata/destiny.pal
-deleted file mode 100644
-index 439781b..0000000
-Binary files a/makedata/destiny.pal and /dev/null differ
-diff --git a/makedata/destiny2.cpr b/makedata/destiny2.cpr
-deleted file mode 100644
-index 637a264..0000000
-Binary files a/makedata/destiny2.cpr and /dev/null differ
-diff --git a/makedata/destiny2.pal b/makedata/destiny2.pal
-deleted file mode 100644
-index db79965..0000000
-Binary files a/makedata/destiny2.pal and /dev/null differ
 diff --git a/makedata/elemmake.pas b/makedata/elemmake.pas
 index b23b7cb..7d96863 100644
 --- a/makedata/elemmake.pas
@@ -4177,18 +3905,6 @@ index ce159d6..68b69ba 100644
  
  uses crt;
  
-diff --git a/makedata/explode3.sam b/makedata/explode3.sam
-deleted file mode 100644
-index 65734d1..0000000
-Binary files a/makedata/explode3.sam and /dev/null differ
-diff --git a/makedata/fight.cpr b/makedata/fight.cpr
-deleted file mode 100644
-index d7a141a..0000000
-Binary files a/makedata/fight.cpr and /dev/null differ
-diff --git a/makedata/font.cpr b/makedata/font.cpr
-deleted file mode 100644
-index 1dd4dc3..0000000
-Binary files a/makedata/font.cpr and /dev/null differ
 diff --git a/makedata/getfont.pas b/makedata/getfont.pas
 index 113b611..bc645c2 100644
 --- a/makedata/getfont.pas
@@ -4214,14 +3930,6 @@ index 113b611..bc645c2 100644
  
  uses crt,graftool;
  
-diff --git a/makedata/gun2.sam b/makedata/gun2.sam
-deleted file mode 100644
-index a8037f6..0000000
-Binary files a/makedata/gun2.sam and /dev/null differ
-diff --git a/makedata/gun3.sam b/makedata/gun3.sam
-deleted file mode 100644
-index bf8aad3..0000000
-Binary files a/makedata/gun3.sam and /dev/null differ
 diff --git a/makedata/iconmake.pas b/makedata/iconmake.pas
 index 8dec2c9..92cf1d1 100644
 --- a/makedata/iconmake.pas
@@ -4248,126 +3956,6 @@ index 8dec2c9..92cf1d1 100644
  uses crt, data;
  
  type
-diff --git a/makedata/image01.cpr b/makedata/image01.cpr
-deleted file mode 100644
-index a57e442..0000000
-Binary files a/makedata/image01.cpr and /dev/null differ
-diff --git a/makedata/image02.cpr b/makedata/image02.cpr
-deleted file mode 100644
-index 9a84bc7..0000000
-Binary files a/makedata/image02.cpr and /dev/null differ
-diff --git a/makedata/image03.cpr b/makedata/image03.cpr
-deleted file mode 100644
-index 1f50f90..0000000
-Binary files a/makedata/image03.cpr and /dev/null differ
-diff --git a/makedata/image04.cpr b/makedata/image04.cpr
-deleted file mode 100644
-index 56ca54c..0000000
-Binary files a/makedata/image04.cpr and /dev/null differ
-diff --git a/makedata/image05.cpr b/makedata/image05.cpr
-deleted file mode 100644
-index 7a5b39b..0000000
-Binary files a/makedata/image05.cpr and /dev/null differ
-diff --git a/makedata/image06.cpr b/makedata/image06.cpr
-deleted file mode 100644
-index 9fd4c7b..0000000
-Binary files a/makedata/image06.cpr and /dev/null differ
-diff --git a/makedata/image07.cpr b/makedata/image07.cpr
-deleted file mode 100644
-index cc756db..0000000
-Binary files a/makedata/image07.cpr and /dev/null differ
-diff --git a/makedata/image08.cpr b/makedata/image08.cpr
-deleted file mode 100644
-index c4bfb22..0000000
-Binary files a/makedata/image08.cpr and /dev/null differ
-diff --git a/makedata/image09.cpr b/makedata/image09.cpr
-deleted file mode 100644
-index fec5aed..0000000
-Binary files a/makedata/image09.cpr and /dev/null differ
-diff --git a/makedata/image10.cpr b/makedata/image10.cpr
-deleted file mode 100644
-index 1ea9607..0000000
-Binary files a/makedata/image10.cpr and /dev/null differ
-diff --git a/makedata/image11.cpr b/makedata/image11.cpr
-deleted file mode 100644
-index ff42aca..0000000
-Binary files a/makedata/image11.cpr and /dev/null differ
-diff --git a/makedata/image12.cpr b/makedata/image12.cpr
-deleted file mode 100644
-index 097dd42..0000000
-Binary files a/makedata/image12.cpr and /dev/null differ
-diff --git a/makedata/image13.cpr b/makedata/image13.cpr
-deleted file mode 100644
-index 4fd803c..0000000
-Binary files a/makedata/image13.cpr and /dev/null differ
-diff --git a/makedata/image14.cpr b/makedata/image14.cpr
-deleted file mode 100644
-index b4fcc7e..0000000
-Binary files a/makedata/image14.cpr and /dev/null differ
-diff --git a/makedata/image15.cpr b/makedata/image15.cpr
-deleted file mode 100644
-index a8e326f..0000000
-Binary files a/makedata/image15.cpr and /dev/null differ
-diff --git a/makedata/image16.cpr b/makedata/image16.cpr
-deleted file mode 100644
-index 6869639..0000000
-Binary files a/makedata/image16.cpr and /dev/null differ
-diff --git a/makedata/image17.cpr b/makedata/image17.cpr
-deleted file mode 100644
-index 75bab1b..0000000
-Binary files a/makedata/image17.cpr and /dev/null differ
-diff --git a/makedata/image18.cpr b/makedata/image18.cpr
-deleted file mode 100644
-index b6d7711..0000000
-Binary files a/makedata/image18.cpr and /dev/null differ
-diff --git a/makedata/image19.cpr b/makedata/image19.cpr
-deleted file mode 100644
-index a1a8a3d..0000000
-Binary files a/makedata/image19.cpr and /dev/null differ
-diff --git a/makedata/image20.cpr b/makedata/image20.cpr
-deleted file mode 100644
-index 4ebb118..0000000
-Binary files a/makedata/image20.cpr and /dev/null differ
-diff --git a/makedata/image21.cpr b/makedata/image21.cpr
-deleted file mode 100644
-index d2c0c57..0000000
-Binary files a/makedata/image21.cpr and /dev/null differ
-diff --git a/makedata/image22.cpr b/makedata/image22.cpr
-deleted file mode 100644
-index 8451ddf..0000000
-Binary files a/makedata/image22.cpr and /dev/null differ
-diff --git a/makedata/image23.cpr b/makedata/image23.cpr
-deleted file mode 100644
-index 7150503..0000000
-Binary files a/makedata/image23.cpr and /dev/null differ
-diff --git a/makedata/image24.cpr b/makedata/image24.cpr
-deleted file mode 100644
-index 0626e56..0000000
-Binary files a/makedata/image24.cpr and /dev/null differ
-diff --git a/makedata/image25.cpr b/makedata/image25.cpr
-deleted file mode 100644
-index 5422c03..0000000
-Binary files a/makedata/image25.cpr and /dev/null differ
-diff --git a/makedata/intro.pal b/makedata/intro.pal
-deleted file mode 100644
-index af71c1a..0000000
-Binary files a/makedata/intro.pal and /dev/null differ
-diff --git a/makedata/intro2.cpr b/makedata/intro2.cpr
-deleted file mode 100644
-index 30a0540..0000000
-Binary files a/makedata/intro2.cpr and /dev/null differ
-diff --git a/makedata/intro2.pal b/makedata/intro2.pal
-deleted file mode 100644
-index 813692e..0000000
-Binary files a/makedata/intro2.pal and /dev/null differ
-diff --git a/makedata/intro3.cpr b/makedata/intro3.cpr
-deleted file mode 100644
-index a64c5ee..0000000
-Binary files a/makedata/intro3.cpr and /dev/null differ
-diff --git a/makedata/intro5.cpr b/makedata/intro5.cpr
-deleted file mode 100644
-index 626c964..0000000
-Binary files a/makedata/intro5.cpr and /dev/null differ
 diff --git a/makedata/itemmake.pas b/makedata/itemmake.pas
 index e1fff9e..16ad8e8 100644
 --- a/makedata/itemmake.pas
@@ -4393,46 +3981,6 @@ index e1fff9e..16ad8e8 100644
  
  type
   iteminfotype=
-diff --git a/makedata/jeremy.cpr b/makedata/jeremy.cpr
-deleted file mode 100644
-index 81c46ec..0000000
-Binary files a/makedata/jeremy.cpr and /dev/null differ
-diff --git a/makedata/jeremy.pal b/makedata/jeremy.pal
-deleted file mode 100644
-index 445f56d..0000000
-Binary files a/makedata/jeremy.pal and /dev/null differ
-diff --git a/makedata/land0001.pal b/makedata/land0001.pal
-deleted file mode 100644
-index c428e4d..0000000
-Binary files a/makedata/land0001.pal and /dev/null differ
-diff --git a/makedata/land0002.pal b/makedata/land0002.pal
-deleted file mode 100644
-index c428e4d..0000000
-Binary files a/makedata/land0002.pal and /dev/null differ
-diff --git a/makedata/land0003.pal b/makedata/land0003.pal
-deleted file mode 100644
-index 538e3de..0000000
-Binary files a/makedata/land0003.pal and /dev/null differ
-diff --git a/makedata/land1.cpr b/makedata/land1.cpr
-deleted file mode 100644
-index 5c74f06..0000000
-Binary files a/makedata/land1.cpr and /dev/null differ
-diff --git a/makedata/land1.pal b/makedata/land1.pal
-deleted file mode 100644
-index be457c6..0000000
-Binary files a/makedata/land1.pal and /dev/null differ
-diff --git a/makedata/land2.pal b/makedata/land2.pal
-deleted file mode 100644
-index 528b767..0000000
-Binary files a/makedata/land2.pal and /dev/null differ
-diff --git a/makedata/lilship.cpr b/makedata/lilship.cpr
-deleted file mode 100644
-index ee6bfd4..0000000
-Binary files a/makedata/lilship.cpr and /dev/null differ
-diff --git a/makedata/main2.cpr b/makedata/main2.cpr
-deleted file mode 100644
-index ebea10b..0000000
-Binary files a/makedata/main2.cpr and /dev/null differ
 diff --git a/makedata/makename.pas b/makedata/makename.pas
 index e26310d..63cb4fd 100644
 --- a/makedata/makename.pas
@@ -4458,62 +4006,6 @@ index e26310d..63cb4fd 100644
  
  var
   i,j,a,b: integer;
-diff --git a/makedata/marland.pal b/makedata/marland.pal
-deleted file mode 100644
-index 1717d22..0000000
-Binary files a/makedata/marland.pal and /dev/null differ
-diff --git a/makedata/marland.sga b/makedata/marland.sga
-deleted file mode 100644
-index 1ee211e..0000000
-Binary files a/makedata/marland.sga and /dev/null differ
-diff --git a/makedata/marland2.pal b/makedata/marland2.pal
-deleted file mode 100644
-index 1911593..0000000
-Binary files a/makedata/marland2.pal and /dev/null differ
-diff --git a/makedata/mars.cpr b/makedata/mars.cpr
-deleted file mode 100644
-index e65c4b8..0000000
-Binary files a/makedata/mars.cpr and /dev/null differ
-diff --git a/makedata/mars.pal b/makedata/mars.pal
-deleted file mode 100644
-index 2105f24..0000000
-Binary files a/makedata/mars.pal and /dev/null differ
-diff --git a/makedata/mars2.cpr b/makedata/mars2.cpr
-deleted file mode 100644
-index ae8bdb9..0000000
-Binary files a/makedata/mars2.cpr and /dev/null differ
-diff --git a/makedata/pix1.cpr b/makedata/pix1.cpr
-deleted file mode 100644
-index 78e37be..0000000
-Binary files a/makedata/pix1.cpr and /dev/null differ
-diff --git a/makedata/pix2.cpr b/makedata/pix2.cpr
-deleted file mode 100644
-index 6df28fd..0000000
-Binary files a/makedata/pix2.cpr and /dev/null differ
-diff --git a/makedata/planicon.cpr b/makedata/planicon.cpr
-deleted file mode 100644
-index b4301ea..0000000
-Binary files a/makedata/planicon.cpr and /dev/null differ
-diff --git a/makedata/research.cpr b/makedata/research.cpr
-deleted file mode 100644
-index e3f4102..0000000
-Binary files a/makedata/research.cpr and /dev/null differ
-diff --git a/makedata/rob.mod b/makedata/rob.mod
-deleted file mode 100644
-index 06c2639..0000000
-Binary files a/makedata/rob.mod and /dev/null differ
-diff --git a/makedata/rob2.mod b/makedata/rob2.mod
-deleted file mode 100644
-index db1d293..0000000
-Binary files a/makedata/rob2.mod and /dev/null differ
-diff --git a/makedata/rob3.mod b/makedata/rob3.mod
-deleted file mode 100644
-index 4e63d39..0000000
-Binary files a/makedata/rob3.mod and /dev/null differ
-diff --git a/makedata/scanmake b/makedata/scanmake
-deleted file mode 100755
-index 30a7d58..0000000
-Binary files a/makedata/scanmake and /dev/null differ
 diff --git a/makedata/scanmake.pas b/makedata/scanmake.pas
 index 4cd82d9..1b4eea7 100644
 --- a/makedata/scanmake.pas
@@ -4548,50 +4040,6 @@ index 4cd82d9..1b4eea7 100644
   assign(ft,'makedata/scandata.txt');
   reset(ft);
   for i:=1 to 17 do
-diff --git a/makedata/ship1a.dta b/makedata/ship1a.dta
-deleted file mode 100644
-index 94258af..0000000
-Binary files a/makedata/ship1a.dta and /dev/null differ
-diff --git a/makedata/ship1b.dta b/makedata/ship1b.dta
-deleted file mode 100644
-index 21ab151..0000000
-Binary files a/makedata/ship1b.dta and /dev/null differ
-diff --git a/makedata/ship1c.dta b/makedata/ship1c.dta
-deleted file mode 100644
-index 122cec4..0000000
-Binary files a/makedata/ship1c.dta and /dev/null differ
-diff --git a/makedata/ship2a.dta b/makedata/ship2a.dta
-deleted file mode 100644
-index ccf08a1..0000000
-Binary files a/makedata/ship2a.dta and /dev/null differ
-diff --git a/makedata/ship2b.dta b/makedata/ship2b.dta
-deleted file mode 100644
-index 6d5c2dc..0000000
-Binary files a/makedata/ship2b.dta and /dev/null differ
-diff --git a/makedata/ship2c.dta b/makedata/ship2c.dta
-deleted file mode 100644
-index 545c5e8..0000000
-Binary files a/makedata/ship2c.dta and /dev/null differ
-diff --git a/makedata/ship3a.dta b/makedata/ship3a.dta
-deleted file mode 100644
-index 3d94575..0000000
-Binary files a/makedata/ship3a.dta and /dev/null differ
-diff --git a/makedata/ship3b.dta b/makedata/ship3b.dta
-deleted file mode 100644
-index a2664c5..0000000
-Binary files a/makedata/ship3b.dta and /dev/null differ
-diff --git a/makedata/ship3c.dta b/makedata/ship3c.dta
-deleted file mode 100644
-index f98fe50..0000000
-Binary files a/makedata/ship3c.dta and /dev/null differ
-diff --git a/makedata/shipicon.cpr b/makedata/shipicon.cpr
-deleted file mode 100644
-index c52f08a..0000000
-Binary files a/makedata/shipicon.cpr and /dev/null differ
-diff --git a/makedata/shipicon.pal b/makedata/shipicon.pal
-deleted file mode 100644
-index bf26215..0000000
-Binary files a/makedata/shipicon.pal and /dev/null differ
 diff --git a/makedata/shipmake.pas b/makedata/shipmake.pas
 index 13d10ef..b3b48a0 100644
 --- a/makedata/shipmake.pas
@@ -4617,10 +4065,6 @@ index 13d10ef..b3b48a0 100644
  
  type
   alienshiptype=
-diff --git a/makedata/shippart.cpr b/makedata/shippart.cpr
-deleted file mode 100644
-index 58c4be5..0000000
-Binary files a/makedata/shippart.cpr and /dev/null differ
 diff --git a/makedata/sysmake.pas b/makedata/sysmake.pas
 index 9cde194..ff7e057 100644
 --- a/makedata/sysmake.pas
@@ -4684,38 +4128,6 @@ index 9cde194..ff7e057 100644
 + exit;
  end.
 \ No newline at end of file
-diff --git a/makedata/tech1.cpr b/makedata/tech1.cpr
-deleted file mode 100644
-index f76647b..0000000
-Binary files a/makedata/tech1.cpr and /dev/null differ
-diff --git a/makedata/tech2.cpr b/makedata/tech2.cpr
-deleted file mode 100644
-index f76647b..0000000
-Binary files a/makedata/tech2.cpr and /dev/null differ
-diff --git a/makedata/test.com b/makedata/test.com
-deleted file mode 100644
-index e2d9a7c..0000000
-Binary files a/makedata/test.com and /dev/null differ
-diff --git a/makedata/test.cpr b/makedata/test.cpr
-deleted file mode 100644
-index d6e99ee..0000000
-Binary files a/makedata/test.cpr and /dev/null differ
-diff --git a/makedata/test.dta b/makedata/test.dta
-deleted file mode 100644
-index 4474fe5..0000000
-Binary files a/makedata/test.dta and /dev/null differ
-diff --git a/makedata/test.pal b/makedata/test.pal
-deleted file mode 100644
-index 8b17520..0000000
-Binary files a/makedata/test.pal and /dev/null differ
-diff --git a/makedata/test2.cpr b/makedata/test2.cpr
-deleted file mode 100644
-index f26bad2..0000000
-Binary files a/makedata/test2.cpr and /dev/null differ
-diff --git a/makedata/test2.pal b/makedata/test2.pal
-deleted file mode 100644
-index 483593f..0000000
-Binary files a/makedata/test2.pal and /dev/null differ
 diff --git a/makedata/weapmake.pas b/makedata/weapmake.pas
 index 9efe8be..d163372 100644
 --- a/makedata/weapmake.pas
@@ -4741,18 +4153,6 @@ index 9efe8be..d163372 100644
  
  uses crt;
  
-diff --git a/makedata/world2.cpr b/makedata/world2.cpr
-deleted file mode 100644
-index 020155f..0000000
-Binary files a/makedata/world2.cpr and /dev/null differ
-diff --git a/makedata/world2.pal b/makedata/world2.pal
-deleted file mode 100644
-index ac29ecb..0000000
-Binary files a/makedata/world2.pal and /dev/null differ
-diff --git a/makedata/world3.cpr b/makedata/world3.cpr
-deleted file mode 100644
-index 0533660..0000000
-Binary files a/makedata/world3.cpr and /dev/null differ
 diff --git a/makedata/evolve.txt b/other/evolve.txt
 similarity index 100%
 rename from makedata/evolve.txt
@@ -5223,346 +4623,6 @@ diff --git a/png/world.png b/png/world.png
 new file mode 100644
 index 0000000..edf73d8
 Binary files /dev/null and b/png/world.png differ
-diff --git a/save1/CONTACTS.DTA b/save1/CONTACTS.DTA
-deleted file mode 100644
-index 031a2fd..0000000
-Binary files a/save1/CONTACTS.DTA and /dev/null differ
-diff --git a/save1/EVENTS.DTA b/save1/EVENTS.DTA
-deleted file mode 100644
-index ef0d0a8..0000000
-Binary files a/save1/EVENTS.DTA and /dev/null differ
-diff --git a/save1/LOGS.DTA b/save1/LOGS.DTA
-deleted file mode 100644
-index 5affc62..0000000
-Binary files a/save1/LOGS.DTA and /dev/null differ
-diff --git a/save1/PENDING.DTA b/save1/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save1/PENDING.DTA and /dev/null differ
-diff --git a/save1/PLANETS.DTA b/save1/PLANETS.DTA
-deleted file mode 100644
-index ae2e927..0000000
-Binary files a/save1/PLANETS.DTA and /dev/null differ
-diff --git a/save1/SHIP.DTA b/save1/SHIP.DTA
-deleted file mode 100644
-index 4db26b1..0000000
-Binary files a/save1/SHIP.DTA and /dev/null differ
-diff --git a/save1/SYSTEMS.DTA b/save1/SYSTEMS.DTA
-deleted file mode 100644
-index 42d9a9e..0000000
-Binary files a/save1/SYSTEMS.DTA and /dev/null differ
-diff --git a/save2/CONTACTS.DTA b/save2/CONTACTS.DTA
-deleted file mode 100644
-index 031a2fd..0000000
-Binary files a/save2/CONTACTS.DTA and /dev/null differ
-diff --git a/save2/EVENTS.DTA b/save2/EVENTS.DTA
-deleted file mode 100644
-index 1a5614c..0000000
-Binary files a/save2/EVENTS.DTA and /dev/null differ
-diff --git a/save2/LOGS.DTA b/save2/LOGS.DTA
-deleted file mode 100644
-index 08dd109..0000000
-Binary files a/save2/LOGS.DTA and /dev/null differ
-diff --git a/save2/PENDING.DTA b/save2/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save2/PENDING.DTA and /dev/null differ
-diff --git a/save2/PLANETS.DTA b/save2/PLANETS.DTA
-deleted file mode 100644
-index e24ccd3..0000000
-Binary files a/save2/PLANETS.DTA and /dev/null differ
-diff --git a/save2/SHIP.DTA b/save2/SHIP.DTA
-deleted file mode 100644
-index 2e38453..0000000
-Binary files a/save2/SHIP.DTA and /dev/null differ
-diff --git a/save2/SYSTEMS.DTA b/save2/SYSTEMS.DTA
-deleted file mode 100644
-index 42d9a9e..0000000
-Binary files a/save2/SYSTEMS.DTA and /dev/null differ
-diff --git a/save3/CONTACTS.DTA b/save3/CONTACTS.DTA
-deleted file mode 100644
-index 031a2fd..0000000
-Binary files a/save3/CONTACTS.DTA and /dev/null differ
-diff --git a/save3/EVENTS.DTA b/save3/EVENTS.DTA
-deleted file mode 100644
-index ef0d0a8..0000000
-Binary files a/save3/EVENTS.DTA and /dev/null differ
-diff --git a/save3/LOGS.DTA b/save3/LOGS.DTA
-deleted file mode 100644
-index 5affc62..0000000
-Binary files a/save3/LOGS.DTA and /dev/null differ
-diff --git a/save3/PENDING.DTA b/save3/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save3/PENDING.DTA and /dev/null differ
-diff --git a/save3/PLANETS.DTA b/save3/PLANETS.DTA
-deleted file mode 100644
-index e6b0a8c..0000000
-Binary files a/save3/PLANETS.DTA and /dev/null differ
-diff --git a/save3/SHIP.DTA b/save3/SHIP.DTA
-deleted file mode 100644
-index d4b642d..0000000
-Binary files a/save3/SHIP.DTA and /dev/null differ
-diff --git a/save3/SYSTEMS.DTA b/save3/SYSTEMS.DTA
-deleted file mode 100644
-index 9d77e4a..0000000
-Binary files a/save3/SYSTEMS.DTA and /dev/null differ
-diff --git a/save4/CONTACTS.DTA b/save4/CONTACTS.DTA
-deleted file mode 100644
-index 101a951..0000000
-Binary files a/save4/CONTACTS.DTA and /dev/null differ
-diff --git a/save4/EVENTS.DTA b/save4/EVENTS.DTA
-deleted file mode 100644
-index 457f14d..0000000
-Binary files a/save4/EVENTS.DTA and /dev/null differ
-diff --git a/save4/LOGS.DTA b/save4/LOGS.DTA
-deleted file mode 100644
-index 0324038..0000000
-Binary files a/save4/LOGS.DTA and /dev/null differ
-diff --git a/save4/PENDING.DTA b/save4/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save4/PENDING.DTA and /dev/null differ
-diff --git a/save4/PLANETS.DTA b/save4/PLANETS.DTA
-deleted file mode 100644
-index 6687b68..0000000
-Binary files a/save4/PLANETS.DTA and /dev/null differ
-diff --git a/save4/SHIP.DTA b/save4/SHIP.DTA
-deleted file mode 100644
-index 1f879ef..0000000
-Binary files a/save4/SHIP.DTA and /dev/null differ
-diff --git a/save4/SYSTEMS.DTA b/save4/SYSTEMS.DTA
-deleted file mode 100644
-index 42d9a9e..0000000
-Binary files a/save4/SYSTEMS.DTA and /dev/null differ
-diff --git a/save5/CONTACTS.DTA b/save5/CONTACTS.DTA
-deleted file mode 100644
-index 031a2fd..0000000
-Binary files a/save5/CONTACTS.DTA and /dev/null differ
-diff --git a/save5/EVENTS.DTA b/save5/EVENTS.DTA
-deleted file mode 100644
-index ef0d0a8..0000000
-Binary files a/save5/EVENTS.DTA and /dev/null differ
-diff --git a/save5/LOGS.DTA b/save5/LOGS.DTA
-deleted file mode 100644
-index 5affc62..0000000
-Binary files a/save5/LOGS.DTA and /dev/null differ
-diff --git a/save5/PENDING.DTA b/save5/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save5/PENDING.DTA and /dev/null differ
-diff --git a/save5/PLANETS.DTA b/save5/PLANETS.DTA
-deleted file mode 100644
-index 1fd168a..0000000
-Binary files a/save5/PLANETS.DTA and /dev/null differ
-diff --git a/save5/SHIP.DTA b/save5/SHIP.DTA
-deleted file mode 100644
-index 5a6db72..0000000
-Binary files a/save5/SHIP.DTA and /dev/null differ
-diff --git a/save5/SYSTEMS.DTA b/save5/SYSTEMS.DTA
-deleted file mode 100644
-index 9d77e4a..0000000
-Binary files a/save5/SYSTEMS.DTA and /dev/null differ
-diff --git a/save6/CONTACTS.DTA b/save6/CONTACTS.DTA
-deleted file mode 100644
-index 101a951..0000000
-Binary files a/save6/CONTACTS.DTA and /dev/null differ
-diff --git a/save6/EVENTS.DTA b/save6/EVENTS.DTA
-deleted file mode 100644
-index 457f14d..0000000
-Binary files a/save6/EVENTS.DTA and /dev/null differ
-diff --git a/save6/LOGS.DTA b/save6/LOGS.DTA
-deleted file mode 100644
-index 0324038..0000000
-Binary files a/save6/LOGS.DTA and /dev/null differ
-diff --git a/save6/PENDING.DTA b/save6/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save6/PENDING.DTA and /dev/null differ
-diff --git a/save6/PLANETS.DTA b/save6/PLANETS.DTA
-deleted file mode 100644
-index 8830bf6..0000000
-Binary files a/save6/PLANETS.DTA and /dev/null differ
-diff --git a/save6/SHIP.DTA b/save6/SHIP.DTA
-deleted file mode 100644
-index 25968da..0000000
-Binary files a/save6/SHIP.DTA and /dev/null differ
-diff --git a/save6/SYSTEMS.DTA b/save6/SYSTEMS.DTA
-deleted file mode 100644
-index 43879dc..0000000
-Binary files a/save6/SYSTEMS.DTA and /dev/null differ
-diff --git a/save7/CONTACTS.DTA b/save7/CONTACTS.DTA
-deleted file mode 100644
-index 031a2fd..0000000
-Binary files a/save7/CONTACTS.DTA and /dev/null differ
-diff --git a/save7/EVENTS.DTA b/save7/EVENTS.DTA
-deleted file mode 100644
-index ef0d0a8..0000000
-Binary files a/save7/EVENTS.DTA and /dev/null differ
-diff --git a/save7/LOGS.DTA b/save7/LOGS.DTA
-deleted file mode 100644
-index 5affc62..0000000
-Binary files a/save7/LOGS.DTA and /dev/null differ
-diff --git a/save7/PENDING.DTA b/save7/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save7/PENDING.DTA and /dev/null differ
-diff --git a/save7/PLANETS.DTA b/save7/PLANETS.DTA
-deleted file mode 100644
-index 1a5a5b6..0000000
-Binary files a/save7/PLANETS.DTA and /dev/null differ
-diff --git a/save7/SHIP.DTA b/save7/SHIP.DTA
-deleted file mode 100644
-index ca09b81..0000000
-Binary files a/save7/SHIP.DTA and /dev/null differ
-diff --git a/save7/SYSTEMS.DTA b/save7/SYSTEMS.DTA
-deleted file mode 100644
-index 9d77e4a..0000000
-Binary files a/save7/SYSTEMS.DTA and /dev/null differ
-diff --git a/save8/CONTACTS.DTA b/save8/CONTACTS.DTA
-deleted file mode 100644
-index b7b83b8..0000000
-Binary files a/save8/CONTACTS.DTA and /dev/null differ
-diff --git a/save8/EVENTS.DTA b/save8/EVENTS.DTA
-deleted file mode 100644
-index 457f14d..0000000
-Binary files a/save8/EVENTS.DTA and /dev/null differ
-diff --git a/save8/LOGS.DTA b/save8/LOGS.DTA
-deleted file mode 100644
-index 0324038..0000000
-Binary files a/save8/LOGS.DTA and /dev/null differ
-diff --git a/save8/PENDING.DTA b/save8/PENDING.DTA
-deleted file mode 100644
-index 002aade..0000000
-Binary files a/save8/PENDING.DTA and /dev/null differ
-diff --git a/save8/PLANETS.DTA b/save8/PLANETS.DTA
-deleted file mode 100644
-index 342fde0..0000000
-Binary files a/save8/PLANETS.DTA and /dev/null differ
-diff --git a/save8/SHIP.DTA b/save8/SHIP.DTA
-deleted file mode 100644
-index 56a0b4e..0000000
-Binary files a/save8/SHIP.DTA and /dev/null differ
-diff --git a/save8/SYSTEMS.DTA b/save8/SYSTEMS.DTA
-deleted file mode 100644
-index 19b1e93..0000000
-Binary files a/save8/SYSTEMS.DTA and /dev/null differ
-diff --git a/sound.cfg b/sound.cfg
-deleted file mode 100644
-index 08a875e..0000000
-Binary files a/sound.cfg and /dev/null differ
-diff --git a/sound/AARD.MOD b/sound/AARD.MOD
-deleted file mode 100644
-index 0de2bc7..0000000
-Binary files a/sound/AARD.MOD and /dev/null differ
-diff --git a/sound/CARGO.MOD b/sound/CARGO.MOD
-deleted file mode 100644
-index 465cade..0000000
-Binary files a/sound/CARGO.MOD and /dev/null differ
-diff --git a/sound/CHARGEN.MOD b/sound/CHARGEN.MOD
-deleted file mode 100644
-index fb1025a..0000000
-Binary files a/sound/CHARGEN.MOD and /dev/null differ
-diff --git a/sound/COMBAT.MOD b/sound/COMBAT.MOD
-deleted file mode 100644
-index b2c33ed..0000000
-Binary files a/sound/COMBAT.MOD and /dev/null differ
-diff --git a/sound/COMPONT.MOD b/sound/COMPONT.MOD
-deleted file mode 100644
-index 8f8d128..0000000
-Binary files a/sound/COMPONT.MOD and /dev/null differ
-diff --git a/sound/CREWCOMM.MOD b/sound/CREWCOMM.MOD
-deleted file mode 100644
-index a16e91c..0000000
-Binary files a/sound/CREWCOMM.MOD and /dev/null differ
-diff --git a/sound/CREWEVAL.MOD b/sound/CREWEVAL.MOD
-deleted file mode 100644
-index 6d50cde..0000000
-Binary files a/sound/CREWEVAL.MOD and /dev/null differ
-diff --git a/sound/DIMENSIO.MOD b/sound/DIMENSIO.MOD
-deleted file mode 100644
-index 40145d4..0000000
-Binary files a/sound/DIMENSIO.MOD and /dev/null differ
-diff --git a/sound/DPAK.MOD b/sound/DPAK.MOD
-deleted file mode 100644
-index c725253..0000000
-Binary files a/sound/DPAK.MOD and /dev/null differ
-diff --git a/sound/ERMIGEN.MOD b/sound/ERMIGEN.MOD
-deleted file mode 100644
-index 39bb1d6..0000000
-Binary files a/sound/ERMIGEN.MOD and /dev/null differ
-diff --git a/sound/GAME.MOD b/sound/GAME.MOD
-deleted file mode 100644
-index 465cade..0000000
-Binary files a/sound/GAME.MOD and /dev/null differ
-diff --git a/sound/GENER1.MOD b/sound/GENER1.MOD
-deleted file mode 100644
-index 84100e7..0000000
-Binary files a/sound/GENER1.MOD and /dev/null differ
-diff --git a/sound/GUILD.MOD b/sound/GUILD.MOD
-deleted file mode 100644
-index 167635d..0000000
-Binary files a/sound/GUILD.MOD and /dev/null differ
-diff --git a/sound/ICON.MOD b/sound/ICON.MOD
-deleted file mode 100644
-index f03a1fc..0000000
-Binary files a/sound/ICON.MOD and /dev/null differ
-diff --git a/sound/INTRO1.MOD b/sound/INTRO1.MOD
-deleted file mode 100644
-index ead56cd..0000000
-Binary files a/sound/INTRO1.MOD and /dev/null differ
-diff --git a/sound/INTRO2.MOD b/sound/INTRO2.MOD
-deleted file mode 100644
-index eac3d0f..0000000
-Binary files a/sound/INTRO2.MOD and /dev/null differ
-diff --git a/sound/LOVE.MOD b/sound/LOVE.MOD
-deleted file mode 100644
-index 051fb66..0000000
-Binary files a/sound/LOVE.MOD and /dev/null differ
-diff --git a/sound/PHADOR.MOD b/sound/PHADOR.MOD
-deleted file mode 100644
-index 6fcbb87..0000000
-Binary files a/sound/PHADOR.MOD and /dev/null differ
-diff --git a/sound/PROBE.MOD b/sound/PROBE.MOD
-deleted file mode 100644
-index a0f1e79..0000000
-Binary files a/sound/PROBE.MOD and /dev/null differ
-diff --git a/sound/PSYEVAL.MOD b/sound/PSYEVAL.MOD
-deleted file mode 100644
-index f2d1def..0000000
-Binary files a/sound/PSYEVAL.MOD and /dev/null differ
-diff --git a/sound/QUAI.MOD b/sound/QUAI.MOD
-deleted file mode 100644
-index 01b6d59..0000000
-Binary files a/sound/QUAI.MOD and /dev/null differ
-diff --git a/sound/SCANNER.MOD b/sound/SCANNER.MOD
-deleted file mode 100644
-index cdc7591..0000000
-Binary files a/sound/SCANNER.MOD and /dev/null differ
-diff --git a/sound/SCAVENG.MOD b/sound/SCAVENG.MOD
-deleted file mode 100644
-index 2fa0a86..0000000
-Binary files a/sound/SCAVENG.MOD and /dev/null differ
-diff --git a/sound/SECTOR.MOD b/sound/SECTOR.MOD
-deleted file mode 100644
-index f1b6e1e..0000000
-Binary files a/sound/SECTOR.MOD and /dev/null differ
-diff --git a/sound/SENGZHAC.MOD b/sound/SENGZHAC.MOD
-deleted file mode 100644
-index fe7a55a..0000000
-Binary files a/sound/SENGZHAC.MOD and /dev/null differ
-diff --git a/sound/TITARIAN.MOD b/sound/TITARIAN.MOD
-deleted file mode 100644
-index ee8a482..0000000
-Binary files a/sound/TITARIAN.MOD and /dev/null differ
-diff --git a/sound/VICTORY.MOD b/sound/VICTORY.MOD
-deleted file mode 100644
-index c13d837..0000000
-Binary files a/sound/VICTORY.MOD and /dev/null differ
-diff --git a/sound/VOID.MOD b/sound/VOID.MOD
-deleted file mode 100644
-index c7ca8bd..0000000
-Binary files a/sound/VOID.MOD and /dev/null differ
 diff --git a/version.txt b/version.txt
 index b111351..d76d053 100644
 --- a/version.txt
