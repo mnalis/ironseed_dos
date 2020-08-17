@@ -34,10 +34,10 @@ index 0000000..2afebb4
 +	VGA256.BGI should be extracted from the toolkit. It should be then converted to a .OBJ file with BINOBJ.EXE included with Borland Pascal.
 +	VGA256.OBJ should be place in ironseed/code
 \ No newline at end of file
-diff --git a/code/cargtool.pas b/code/cargtool.pas
+diff --git a/cargtool.pas b/cargtool.pas
 index 2350b3c..62f3fdf 100644
---- a/code/cargtool.pas
-+++ b/code/cargtool.pas
+--- a/cargtool.pas
++++ b/cargtool.pas
 @@ -1,4 +1,20 @@
  unit cargtool;
 +(********************************************************************
@@ -59,10 +59,10 @@ index 2350b3c..62f3fdf 100644
  
  {***************************
     Cargo/Creation unit for IronSeed
-diff --git a/code/combat.pas b/code/combat.pas
+diff --git a/combat.pas b/combat.pas
 index 9063e5a..c724a23 100644
---- a/code/combat.pas
-+++ b/code/combat.pas
+--- a/combat.pas
++++ b/combat.pas
 @@ -1,4 +1,20 @@
  unit combat;
 +(********************************************************************
@@ -84,10 +84,10 @@ index 9063e5a..c724a23 100644
  
  {***************************
     Battle/Combat unit for IronSeed
-diff --git a/code/comm.pas b/code/comm.pas
+diff --git a/comm.pas b/comm.pas
 index bbbf125..b32e6a9 100644
---- a/code/comm.pas
-+++ b/code/comm.pas
+--- a/comm.pas
++++ b/comm.pas
 @@ -1,4 +1,20 @@
  unit comm;
 +(********************************************************************
@@ -118,10 +118,10 @@ index bbbf125..b32e6a9 100644
  
  procedure conversewithcrew;
  procedure continuecontact(hail: boolean);
-diff --git a/code/comm2.pas b/code/comm2.pas
+diff --git a/comm2.pas b/comm2.pas
 index fc43695..dd093cb 100644
---- a/code/comm2.pas
-+++ b/code/comm2.pas
+--- a/comm2.pas
++++ b/comm2.pas
 @@ -1,4 +1,20 @@
  unit comm2;
 +(********************************************************************
@@ -143,10 +143,10 @@ index fc43695..dd093cb 100644
  
  {***************************
     Communication unit #2 for IronSeed
-diff --git a/code/crew2.pas b/code/crew2.pas
+diff --git a/crew2.pas b/crew2.pas
 index f4af393..e2ff7c3 100644
---- a/code/crew2.pas
-+++ b/code/crew2.pas
+--- a/crew2.pas
++++ b/crew2.pas
 @@ -1,4 +1,20 @@
  unit crew2;
 +(********************************************************************
@@ -168,10 +168,10 @@ index f4af393..e2ff7c3 100644
  
  {***************************
     Crew Manipulation unit 2 for IronSeed
-diff --git a/code/crewgen.pas b/code/crewgen.pas
+diff --git a/crewgen.pas b/crewgen.pas
 index 92b3c34..25ca02a 100644
---- a/code/crewgen.pas
-+++ b/code/crewgen.pas
+--- a/crewgen.pas
++++ b/crewgen.pas
 @@ -1,4 +1,21 @@
  program crewgen;
 +(********************************************************************
@@ -194,10 +194,10 @@ index 92b3c34..25ca02a 100644
  {$M 4500,300000,300000}
  {$S-,L-,D-}
  
-diff --git a/code/crewinfo.pas b/code/crewinfo.pas
+diff --git a/crewinfo.pas b/crewinfo.pas
 index 1daf332..e7f32fa 100644
---- a/code/crewinfo.pas
-+++ b/code/crewinfo.pas
+--- a/crewinfo.pas
++++ b/crewinfo.pas
 @@ -1,4 +1,20 @@
  unit crewinfo;
 +(********************************************************************
@@ -219,10 +219,10 @@ index 1daf332..e7f32fa 100644
  
  {***************************
     Crew Manipulation unit for IronSeed
-diff --git a/code/crewtick.pas b/code/crewtick.pas
+diff --git a/crewtick.pas b/crewtick.pas
 index c4e67df..84cff22 100644
---- a/code/crewtick.pas
-+++ b/code/crewtick.pas
+--- a/crewtick.pas
++++ b/crewtick.pas
 @@ -1,4 +1,20 @@
  unit crewtick;
 +(********************************************************************
@@ -244,10 +244,10 @@ index c4e67df..84cff22 100644
  
  {$O+}
  
-diff --git a/code/data.pas b/code/data.pas
+diff --git a/data.pas b/data.pas
 index 290233f..860835b 100644
---- a/code/data.pas
-+++ b/code/data.pas
+--- a/data.pas
++++ b/data.pas
 @@ -1,4 +1,20 @@
  unit data;
 +(********************************************************************
@@ -269,38 +269,10 @@ index 290233f..860835b 100644
  
  {***************************
     Data unit for IronSeed
-diff --git a/code/detsound.pas b/code/detsound.pas
-index 991b970..5f8b75a 100644
---- a/code/detsound.pas
-+++ b/code/detsound.pas
-@@ -1,6 +1,22 @@
- program detectsoundinformation;
-+(********************************************************************
-+    This file is part of Ironseed.
- 
--uses strings,crt,MCP,DET_SB,DET_PAS,DET_ARIA,DETGUS;
-+    Ironseed is free software: you can redistribute it and/or modify
-+    it under the terms of the GNU General Public License as published by
-+    the Free Software Foundation, either version 3 of the License, or
-+    (at your option) any later version.
-+
-+    Ironseed is distributed in the hope that it will be useful,
-+    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+    GNU General Public License for more details.
-+
-+    You should have received a copy of the GNU General Public License
-+    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+********************************************************************)
-+
-+{$I DSMI.INC}, strings,crt,MCP,DET_SB,DET_PAS,DET_ARIA,DETGUS;
- 
- var
-  scard: TSoundCard;
-diff --git a/code/display.pas b/code/display.pas
+diff --git a/display.pas b/display.pas
 index cdaa15f..a593cf6 100644
---- a/code/display.pas
-+++ b/code/display.pas
+--- a/display.pas
++++ b/display.pas
 @@ -1,4 +1,20 @@
  unit display;
 +(********************************************************************
@@ -322,10 +294,10 @@ index cdaa15f..a593cf6 100644
  
  {***************************
     Ship Display Control unit for IronSeed
-diff --git a/code/emstool.pas b/code/emstool.pas
+diff --git a/emstool.pas b/emstool.pas
 index 2612fb8..103bc73 100644
---- a/code/emstool.pas
-+++ b/code/emstool.pas
+--- a/emstool.pas
++++ b/emstool.pas
 @@ -1,4 +1,20 @@
  unit emstool;
 +(********************************************************************
@@ -354,10 +326,10 @@ index 2612fb8..103bc73 100644
 -end.
 \ No newline at end of file
 +end.
-diff --git a/code/ending.pas b/code/ending.pas
+diff --git a/ending.pas b/ending.pas
 index 0f60004..e12599b 100644
---- a/code/ending.pas
-+++ b/code/ending.pas
+--- a/ending.pas
++++ b/ending.pas
 @@ -1,4 +1,21 @@
  unit ending;
 +(********************************************************************
@@ -380,10 +352,10 @@ index 0f60004..e12599b 100644
  {***************************
  
    Endgame Sequence for IronSeed
-diff --git a/code/explore.pas b/code/explore.pas
+diff --git a/explore.pas b/explore.pas
 index 8a6db39..a6bd9ab 100644
---- a/code/explore.pas
-+++ b/code/explore.pas
+--- a/explore.pas
++++ b/explore.pas
 @@ -1,4 +1,20 @@
  unit explore;
 +(********************************************************************
@@ -405,10 +377,10 @@ index 8a6db39..a6bd9ab 100644
  
  {***************************
     Planet Exploration unit for IronSeed
-diff --git a/code/gmouse.pas b/code/gmouse.pas
+diff --git a/gmouse.pas b/gmouse.pas
 index cba494b..da4854e 100644
---- a/code/gmouse.pas
-+++ b/code/gmouse.pas
+--- a/gmouse.pas
++++ b/gmouse.pas
 @@ -1,4 +1,20 @@
  unit gmouse;
 +(********************************************************************
@@ -430,10 +402,10 @@ index cba494b..da4854e 100644
  
  {***************************
     Mouse Utilities unit for IronSeed
-diff --git a/code/heapchk.pas b/code/heapchk.pas
+diff --git a/heapchk.pas b/heapchk.pas
 index fa8a21c..b88f426 100644
---- a/code/heapchk.pas
-+++ b/code/heapchk.pas
+--- a/heapchk.pas
++++ b/heapchk.pas
 @@ -1,4 +1,20 @@
  unit heapchk;
 +(********************************************************************
@@ -455,10 +427,10 @@ index fa8a21c..b88f426 100644
  
  interface
  procedure WriteHexWord(w: Word);
-diff --git a/code/info.pas b/code/info.pas
+diff --git a/info.pas b/info.pas
 index fec4879..f0c81f1 100644
---- a/code/info.pas
-+++ b/code/info.pas
+--- a/info.pas
++++ b/info.pas
 @@ -1,4 +1,20 @@
  unit info;
 +(********************************************************************
@@ -480,10 +452,10 @@ index fec4879..f0c81f1 100644
  
  {***************************
     Information unit for IronSeed
-diff --git a/code/init.pas b/code/init.pas
+diff --git a/init.pas b/init.pas
 index babe559..95e635e 100644
---- a/code/init.pas
-+++ b/code/init.pas
+--- a/init.pas
++++ b/init.pas
 @@ -1,4 +1,20 @@
  unit init;
 +(********************************************************************
@@ -505,10 +477,10 @@ index babe559..95e635e 100644
  
  {***************************
     Initialization unit for IronSeed
-diff --git a/code/install.pas b/code/install.pas
+diff --git a/install.pas b/install.pas
 index 8d97f66..80eb6e7 100644
---- a/code/install.pas
-+++ b/code/install.pas
+--- a/install.pas
++++ b/install.pas
 @@ -1,4 +1,21 @@
  program installit;
 +(********************************************************************
@@ -531,10 +503,10 @@ index 8d97f66..80eb6e7 100644
  {$M 4000,0,0}
  {
    Installation Unit for IronSeed
-diff --git a/code/intro.pas b/code/intro.pas
+diff --git a/intro.pas b/intro.pas
 index 1f18067..4662c54 100644
---- a/code/intro.pas
-+++ b/code/intro.pas
+--- a/intro.pas
++++ b/intro.pas
 @@ -1,4 +1,21 @@
  program intro;
 +(********************************************************************
@@ -557,10 +529,10 @@ index 1f18067..4662c54 100644
  {$M 5500,436000,436000}
  {$S-,D-,L-}
  
-diff --git a/code/is.pas b/code/is.pas
+diff --git a/is.pas b/is.pas
 index 622e55f..b835d51 100644
---- a/code/is.pas
-+++ b/code/is.pas
+--- a/is.pas
++++ b/is.pas
 @@ -1,4 +1,21 @@
  program ironseed;
 +(********************************************************************
@@ -583,10 +555,10 @@ index 622e55f..b835d51 100644
  {$M 2600,0,0}
  {S-,D-,L-}
  
-diff --git a/code/journey.pas b/code/journey.pas
+diff --git a/journey.pas b/journey.pas
 index 40e7a1d..caa53e7 100644
---- a/code/journey.pas
-+++ b/code/journey.pas
+--- a/journey.pas
++++ b/journey.pas
 @@ -1,4 +1,20 @@
  unit journey;
 +(********************************************************************
@@ -608,10 +580,10 @@ index 40e7a1d..caa53e7 100644
  
  {***************************
     Main Control unit for IronSeed
-diff --git a/code/main.pas b/code/main.pas
+diff --git a/main.pas b/main.pas
 index 43bc175..666c39c 100644
---- a/code/main.pas
-+++ b/code/main.pas
+--- a/main.pas
++++ b/main.pas
 @@ -1,4 +1,21 @@
  program main;
 +(********************************************************************
@@ -634,10 +606,10 @@ index 43bc175..666c39c 100644
  {$M 6500,335000,655360} (*390000*)
  {$S-,L-,D-}
  
-diff --git a/code/modplay.pas b/code/modplay.pas
+diff --git a/modplay.pas b/modplay.pas
 index 638fa7b..3d71d54 100644
---- a/code/modplay.pas
-+++ b/code/modplay.pas
+--- a/modplay.pas
++++ b/modplay.pas
 @@ -1,4 +1,20 @@
  unit modplay;
 +(********************************************************************
@@ -659,10 +631,10 @@ index 638fa7b..3d71d54 100644
  
  {$O+}
  
-diff --git a/code/saveload.pas b/code/saveload.pas
+diff --git a/saveload.pas b/saveload.pas
 index 237e7c2..e545b07 100644
---- a/code/saveload.pas
-+++ b/code/saveload.pas
+--- a/saveload.pas
++++ b/saveload.pas
 @@ -1,4 +1,20 @@
  unit saveload;
 +(********************************************************************
@@ -684,10 +656,10 @@ index 237e7c2..e545b07 100644
  
  {***************************
     Save/Load Game and Utility Unit for IronSeed
-diff --git a/code/shipmake.pas b/code/shipmake.pas
+diff --git a/shipmake.pas b/shipmake.pas
 index 84ceaea..bde1db8 100644
---- a/code/shipmake.pas
-+++ b/code/shipmake.pas
+--- a/shipmake.pas
++++ b/shipmake.pas
 @@ -1,4 +1,20 @@
  program makeship;
 +(********************************************************************
@@ -709,13 +681,13 @@ index 84ceaea..bde1db8 100644
  
  type
   alienshiptype=
-diff --git a/code/config.pas b/code/sndcfg.pas
+diff --git a/config.pas b/sndcfg.pas
 similarity index 92%
 rename from code/config.pas
 rename to code/sndcfg.pas
 index 31374a7..43b3f28 100644
---- a/code/config.pas
-+++ b/code/sndcfg.pas
+--- a/config.pas
++++ b/sndcfg.pas
 @@ -1,7 +1,24 @@
  program ConfigureFrinj;
 +(********************************************************************
@@ -742,10 +714,10 @@ index 31374a7..43b3f28 100644
  
  type
     configfile = 
-diff --git a/code/starter.pas b/code/starter.pas
+diff --git a/starter.pas b/starter.pas
 index febae7f..cfcfc38 100644
---- a/code/starter.pas
-+++ b/code/starter.pas
+--- a/starter.pas
++++ b/starter.pas
 @@ -1,4 +1,20 @@
  unit starter;
 +(********************************************************************
@@ -767,10 +739,10 @@ index febae7f..cfcfc38 100644
  
  {***************************
     Initialization for IronSeed
-diff --git a/code/usecode.pas b/code/usecode.pas
+diff --git a/usecode.pas b/usecode.pas
 index 5638079..9d41358 100644
---- a/code/usecode.pas
-+++ b/code/usecode.pas
+--- a/usecode.pas
++++ b/usecode.pas
 @@ -1,4 +1,20 @@
  unit usecode;
 +(********************************************************************
@@ -792,10 +764,10 @@ index 5638079..9d41358 100644
  
  {***************************
     Ship Display Initialization unit for IronSeed
-diff --git a/code/utils.pas b/code/utils.pas
+diff --git a/utils.pas b/utils.pas
 index 930e8d0..42759d1 100644
---- a/code/utils.pas
-+++ b/code/utils.pas
+--- a/utils.pas
++++ b/utils.pas
 @@ -1,4 +1,20 @@
  unit utils;
 +(********************************************************************
@@ -817,10 +789,10 @@ index 930e8d0..42759d1 100644
  
  {***************************
     General Utilities for IronSeed
-diff --git a/code/utils2.pas b/code/utils2.pas
+diff --git a/utils2.pas b/utils2.pas
 index 2dfa859..05771f8 100644
---- a/code/utils2.pas
-+++ b/code/utils2.pas
+--- a/utils2.pas
++++ b/utils2.pas
 @@ -1,4 +1,20 @@
  unit utils2;
 +(********************************************************************
@@ -842,10 +814,10 @@ index 2dfa859..05771f8 100644
  
  {***************************
     Overlayable Utilites for IronSeed
-diff --git a/code/version.pas b/code/version.pas
+diff --git a/version.pas b/version.pas
 index 130bfd2..5aba570 100644
---- a/code/version.pas
-+++ b/code/version.pas
+--- a/version.pas
++++ b/version.pas
 @@ -1,4 +1,20 @@
  unit version;
 +(********************************************************************
@@ -874,10 +846,10 @@ index 130bfd2..5aba570 100644
 -   'v1.20.0016';
 +   'v1.30.0001';
  end.
-diff --git a/code/weird.pas b/code/weird.pas
+diff --git a/weird.pas b/weird.pas
 index a1b7840..9d274fb 100644
---- a/code/weird.pas
-+++ b/code/weird.pas
+--- a/weird.pas
++++ b/weird.pas
 @@ -1,4 +1,20 @@
  unit weird;
 +(********************************************************************
@@ -902,10 +874,10 @@ index a1b7840..9d274fb 100644
 diff --git a/crealist.txt b/crealist.txt
 deleted file mode 100644
 index e69de29..0000000
-diff --git a/makedata/aliemake.pas b/makedata/aliemake.pas
+diff --git a/Data_Generators/makedata/aliemake.pas b/Data_Generators/makedata/aliemake.pas
 index 15b90ed..0047fa8 100644
---- a/makedata/aliemake.pas
-+++ b/makedata/aliemake.pas
+--- a/Data_Generators/makedata/aliemake.pas
++++ b/Data_Generators/makedata/aliemake.pas
 @@ -1,4 +1,20 @@
  program makealiencontacts;
 +(********************************************************************
@@ -927,10 +899,10 @@ index 15b90ed..0047fa8 100644
  
  type
   alientype=
-diff --git a/makedata/artimake.pas b/makedata/artimake.pas
+diff --git a/Data_Generators/makedata/artimake.pas b/Data_Generators/makedata/artimake.pas
 index fa8b914..fb56452 100644
---- a/makedata/artimake.pas
-+++ b/makedata/artimake.pas
+--- a/Data_Generators/makedata/artimake.pas
++++ b/Data_Generators/makedata/artimake.pas
 @@ -1,4 +1,20 @@
  program makeartifact;
 +(********************************************************************
@@ -952,10 +924,10 @@ index fa8b914..fb56452 100644
  
  type
   artifacttype=string[10];
-diff --git a/makedata/cargmake.pas b/makedata/cargmake.pas
+diff --git a/Data_Generators/makedata/cargmake.pas b/Data_Generators/makedata/cargmake.pas
 index 5cb33fe..ec6469b 100644
---- a/makedata/cargmake.pas
-+++ b/makedata/cargmake.pas
+--- a/Data_Generators/makedata/cargmake.pas
++++ b/Data_Generators/makedata/cargmake.pas
 @@ -1,4 +1,20 @@
  program generatecargodata;
 +(********************************************************************
@@ -989,10 +961,10 @@ index 5cb33fe..ec6469b 100644
   reset(ft);
   readln(ft);
   for i:=1 to maxcargo do
-diff --git a/makedata/creamake.pas b/makedata/creamake.pas
+diff --git a/Data_Generators/makedata/creamake.pas b/Data_Generators/makedata/creamake.pas
 index ecca8b1..0b9ba50 100644
---- a/makedata/creamake.pas
-+++ b/makedata/creamake.pas
+--- a/Data_Generators/makedata/creamake.pas
++++ b/Data_Generators/makedata/creamake.pas
 @@ -1,4 +1,20 @@
  program generatecargodata;
 +(********************************************************************
@@ -1023,10 +995,10 @@ index ecca8b1..0b9ba50 100644
   rewrite(ft);
   writeln(ft,'    ITEM TO CREATE             PART #1             PART #2              PART#3 WORTH LEVELS            ');
   writeln(ft,'------------------ ------------------- ------------------- ------------------- ----- ------------------');
-diff --git a/makedata/crewmake.pas b/makedata/crewmake.pas
+diff --git a/Data_Generators/makedata/crewmake.pas b/Data_Generators/makedata/crewmake.pas
 index 690b5f6..0ca55b6 100644
---- a/makedata/crewmake.pas
-+++ b/makedata/crewmake.pas
+--- a/Data_Generators/makedata/crewmake.pas
++++ b/Data_Generators/makedata/crewmake.pas
 @@ -1,4 +1,21 @@
  program makecrew;
 +(********************************************************************
@@ -1058,10 +1030,10 @@ index 690b5f6..0ca55b6 100644
   clrscr;
   for a:=1 to 30 do
    begin
-diff --git a/makedata/elemmake.pas b/makedata/elemmake.pas
+diff --git a/Data_Generators/makedata/elemmake.pas b/Data_Generators/makedata/elemmake.pas
 index b23b7cb..7d96863 100644
---- a/makedata/elemmake.pas
-+++ b/makedata/elemmake.pas
+--- a/Data_Generators/makedata/elemmake.pas
++++ b/Data_Generators/makedata/elemmake.pas
 @@ -1,4 +1,20 @@
  program generatecargodata;
 +(********************************************************************
@@ -1092,10 +1064,10 @@ index b23b7cb..7d96863 100644
   assign(ft,'\ironseed\makedata\element.txt');
   reset(ft);
   read(ft,index);
-diff --git a/makedata/eventmak.pas b/makedata/eventmak.pas
+diff --git a/Data_Generators/makedata/eventmak.pas b/Data_Generators/makedata/eventmak.pas
 index ce159d6..68b69ba 100644
---- a/makedata/eventmak.pas
-+++ b/makedata/eventmak.pas
+--- a/Data_Generators/makedata/eventmak.pas
++++ b/Data_Generators/makedata/eventmak.pas
 @@ -1,4 +1,20 @@
  program eventmake;
 +(********************************************************************
@@ -1117,10 +1089,10 @@ index ce159d6..68b69ba 100644
  
  uses crt;
  
-diff --git a/makedata/getfont.pas b/makedata/getfont.pas
+diff --git a/Data_Generators/makedata/getfont.pas b/Data_Generators/makedata/getfont.pas
 index 113b611..bc645c2 100644
---- a/makedata/getfont.pas
-+++ b/makedata/getfont.pas
+--- a/Data_Generators/makedata/getfont.pas
++++ b/Data_Generators/makedata/getfont.pas
 @@ -1,4 +1,20 @@
  program getfontfromfile;
 +(********************************************************************
@@ -1142,10 +1114,10 @@ index 113b611..bc645c2 100644
  
  uses crt,graftool;
  
-diff --git a/makedata/iconmake.pas b/makedata/iconmake.pas
+diff --git a/Data_Generators/makedata/iconmake.pas b/Data_Generators/makedata/iconmake.pas
 index 8dec2c9..92cf1d1 100644
---- a/makedata/iconmake.pas
-+++ b/makedata/iconmake.pas
+--- a/Data_Generators/makedata/iconmake.pas
++++ b/Data_Generators/makedata/iconmake.pas
 @@ -1,4 +1,21 @@
  program convertplanicons;
 +(********************************************************************
@@ -1168,10 +1140,10 @@ index 8dec2c9..92cf1d1 100644
  uses crt, data;
  
  type
-diff --git a/makedata/itemmake.pas b/makedata/itemmake.pas
+diff --git a/Data_Generators/makedata/itemmake.pas b/Data_Generators/makedata/itemmake.pas
 index e1fff9e..16ad8e8 100644
---- a/makedata/itemmake.pas
-+++ b/makedata/itemmake.pas
+--- a/Data_Generators/makedata/itemmake.pas
++++ b/Data_Generators/makedata/itemmake.pas
 @@ -1,4 +1,20 @@
  program getiteminfostuff;
 +(********************************************************************
@@ -1193,10 +1165,10 @@ index e1fff9e..16ad8e8 100644
  
  type
   iteminfotype=
-diff --git a/makedata/makename.pas b/makedata/makename.pas
+diff --git a/Data_Generators/makedata/makename.pas b/Data_Generators/makedata/makename.pas
 index e26310d..63cb4fd 100644
---- a/makedata/makename.pas
-+++ b/makedata/makename.pas
+--- a/Data_Generators/makedata/makename.pas
++++ b/Data_Generators/makedata/makename.pas
 @@ -1,4 +1,20 @@
  program makenames;
 +(********************************************************************
@@ -1218,10 +1190,10 @@ index e26310d..63cb4fd 100644
  
  var
   i,j,a,b: integer;
-diff --git a/makedata/scanmake.pas b/makedata/scanmake.pas
+diff --git a/Data_Generators/makedata/scanmake.pas b/Data_Generators/makedata/scanmake.pas
 index 4cd82d9..1b4eea7 100644
---- a/makedata/scanmake.pas
-+++ b/makedata/scanmake.pas
+--- a/Data_Generators/makedata/scanmake.pas
++++ b/Data_Generators/makedata/scanmake.pas
 @@ -1,4 +1,20 @@
  program generatecargodata;
 +(********************************************************************
@@ -1252,10 +1224,10 @@ index 4cd82d9..1b4eea7 100644
   assign(ft,'makedata/scandata.txt');
   reset(ft);
   for i:=1 to 17 do
-diff --git a/makedata/shipmake.pas b/makedata/shipmake.pas
+diff --git a/Data_Generators/makedata/shipmake.pas b/Data_Generators/makedata/shipmake.pas
 index 13d10ef..b3b48a0 100644
---- a/makedata/shipmake.pas
-+++ b/makedata/shipmake.pas
+--- a/Data_Generators/makedata/shipmake.pas
++++ b/Data_Generators/makedata/shipmake.pas
 @@ -1,4 +1,20 @@
  program getshipdata;
 +(********************************************************************
@@ -1277,10 +1249,10 @@ index 13d10ef..b3b48a0 100644
  
  type
   alienshiptype=
-diff --git a/makedata/sysmake.pas b/makedata/sysmake.pas
+diff --git a/Data_Generators/makedata/sysmake.pas b/Data_Generators/makedata/sysmake.pas
 index 9cde194..ff7e057 100644
---- a/makedata/sysmake.pas
-+++ b/makedata/sysmake.pas
+--- a/Data_Generators/makedata/sysmake.pas
++++ b/Data_Generators/makedata/sysmake.pas
 @@ -1,4 +1,20 @@
  program displaysystems;
 +(********************************************************************
@@ -1340,10 +1312,10 @@ index 9cde194..ff7e057 100644
 + exit;
  end.
 \ No newline at end of file
-diff --git a/makedata/weapmake.pas b/makedata/weapmake.pas
+diff --git a/Data_Generators/makedata/weapmake.pas b/Data_Generators/makedata/weapmake.pas
 index 9efe8be..d163372 100644
---- a/makedata/weapmake.pas
-+++ b/makedata/weapmake.pas
+--- a/Data_Generators/makedata/weapmake.pas
++++ b/Data_Generators/makedata/weapmake.pas
 @@ -1,4 +1,20 @@
  program generateweapondata;
 +(********************************************************************
@@ -1367,8 +1339,8 @@ index 9efe8be..d163372 100644
  
 diff --git a/version.txt b/version.txt
 index b111351..d76d053 100644
---- a/version.txt
-+++ b/version.txt
+--- a/Documents/old_version.txt
++++ b/Documents/old_version.txt
 @@ -173,3 +173,6 @@ v1.20.0016:
  
  
