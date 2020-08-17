@@ -1110,32 +1110,6 @@ index cba494b..da4854e 100644
  
  {***************************
     Mouse Utilities unit for IronSeed
-diff --git a/code/graphics.asm b/code/graphics.asm
-index 2e1d057..ce3d709 100644
---- a/code/graphics.asm
-+++ b/code/graphics.asm
-@@ -1,5 +1,21 @@
- ideal
- p486
-+;********************************************************************
-+;    This file is part of Ironseed.
-+;
-+;    Ironseed is free software: you can redistribute it and/or modify
-+;    it under the terms of the GNU General Public License as published by
-+;    the Free Software Foundation, either version 3 of the License, or
-+;    (at your option) any later version.
-+;
-+;    Ironseed is distributed in the hope that it will be useful,
-+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+;    GNU General Public License for more details.
-+;
-+;    You should have received a copy of the GNU General Public License
-+;    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+;********************************************************************
- 
- global mousehide: far
- global mousesetcursor: far
 diff --git a/code/heapchk.pas b/code/heapchk.pas
 index fa8a21c..b88f426 100644
 --- a/code/heapchk.pas
@@ -1365,83 +1339,6 @@ index 638fa7b..3d71d54 100644
  
  {$O+}
  
-diff --git a/code/mouse.asm b/code/mouse.asm
-index 20cef14..56697df 100644
---- a/code/mouse.asm
-+++ b/code/mouse.asm
-@@ -1,5 +1,21 @@
- ideal
- p486
-+;********************************************************************
-+;    This file is part of Ironseed.
-+;
-+;    Ironseed is free software: you can redistribute it and/or modify
-+;    it under the terms of the GNU General Public License as published by
-+;    the Free Software Foundation, either version 3 of the License, or
-+;    (at your option) any later version.
-+;
-+;    Ironseed is distributed in the hope that it will be useful,
-+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+;    GNU General Public License for more details.
-+;
-+;    You should have received a copy of the GNU General Public License
-+;    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+;********************************************************************
- 
- global mousehide: far
- global mousesetcursor: far
-diff --git a/code/mover.asm b/code/mover.asm
-index 53afa07..6ad5389 100644
---- a/code/mover.asm
-+++ b/code/mover.asm
-@@ -1,6 +1,21 @@
--
- ideal
- p486
-+;********************************************************************
-+;    This file is part of Ironseed.
-+;
-+;    Ironseed is free software: you can redistribute it and/or modify
-+;    it under the terms of the GNU General Public License as published by
-+;    the Free Software Foundation, either version 3 of the License, or
-+;    (at your option) any later version.
-+;
-+;    Ironseed is distributed in the hope that it will be useful,
-+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+;    GNU General Public License for more details.
-+;
-+;    You should have received a copy of the GNU General Public License
-+;    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+;********************************************************************
- 
- global mymove: far
- global fillchar386: far
-diff --git a/code/mover2.asm b/code/mover2.asm
-index 24e2af8..f635d14 100644
---- a/code/mover2.asm
-+++ b/code/mover2.asm
-@@ -1,3 +1,19 @@
-+;********************************************************************
-+;    This file is part of Ironseed.
-+;
-+;    Ironseed is free software: you can redistribute it and/or modify
-+;    it under the terms of the GNU General Public License as published by
-+;    the Free Software Foundation, either version 3 of the License, or
-+;    (at your option) any later version.
-+;
-+;    Ironseed is distributed in the hope that it will be useful,
-+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+;    GNU General Public License for more details.
-+;
-+;    You should have received a copy of the GNU General Public License
-+;    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+;********************************************************************
- 
- ideal
- p486
 diff --git a/code/saveload.pas b/code/saveload.pas
 index 237e7c2..e545b07 100644
 --- a/code/saveload.pas
@@ -1467,30 +1364,6 @@ index 237e7c2..e545b07 100644
  
  {***************************
     Save/Load Game and Utility Unit for IronSeed
-diff --git a/code/scroller.asm b/code/scroller.asm
-index 45998b8..2af7819 100644
---- a/code/scroller.asm
-+++ b/code/scroller.asm
-@@ -1,3 +1,19 @@
-+;********************************************************************
-+;    This file is part of Ironseed.
-+;
-+;    Ironseed is free software: you can redistribute it and/or modify
-+;    it under the terms of the GNU General Public License as published by
-+;    the Free Software Foundation, either version 3 of the License, or
-+;    (at your option) any later version.
-+;
-+;    Ironseed is distributed in the hope that it will be useful,
-+;    but WITHOUT ANY WARRANTY; without even the implied warranty of
-+;    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-+;    GNU General Public License for more details.
-+;
-+;    You should have received a copy of the GNU General Public License
-+;    along with Ironseed.  If not, see <http://www.gnu.org/licenses/>.
-+;********************************************************************
- 
- ideal
- p486
 diff --git a/code/shipmake.pas b/code/shipmake.pas
 index 84ceaea..bde1db8 100644
 --- a/code/shipmake.pas
