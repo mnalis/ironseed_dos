@@ -1365,12 +1365,6 @@ index 9efe8be..d163372 100644
  
  uses crt;
  
-diff --git a/makedata/planicon.pal b/png/main.pal
-similarity index 69%
-rename from makedata/planicon.pal
-rename to png/main.pal
-index 6aa7182..ee1c765 100644
-Binary files a/makedata/planicon.pal and b/png/main.pal differ
 diff --git a/version.txt b/version.txt
 index b111351..d76d053 100644
 --- a/version.txt
